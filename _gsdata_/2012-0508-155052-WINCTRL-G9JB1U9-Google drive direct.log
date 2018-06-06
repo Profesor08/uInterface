@@ -1,0 +1,175 @@
+IIS-7 server detected: Microsoft-IIS/7.5
+OfficeLive SkyDrive server: Microsoft-IIS/7.5
+New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+===== 08.05.2012 15:50:59: Задание 'Google drive direct': СИНХРОНИЗАЦИЮ запустил User на компьютере 'WINCTRL-G9JB1U9' =====
+Google drive direct: D:\Server\AppServ\www\uInterface =forced-PropDels=> sds://d.docs.live.net/5516a74b21053909/..Public/uInterface [cookies], SavePrevVers, CleanupPrevVers=30d, CleanupOldGens=24m, TmpDest, EstReq, CopyLocked, DetectMovesAndRenames, DetectFolderMoves, FileLinksDrill, Reconnect=3, CopyCreateTime
+Locking folder D:\Server\AppServ\www\uInterface for write
+Locking folder sds://d.docs.live.net/5516a74b21053909/..Public/uInterface for write
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/css'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/test'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.fifteen'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tmp_not_used'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.slideshow'
+Создана Папка 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.xo'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\bg - копия.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/bg - копия.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\css\Style.css' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/css/Style.css'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\HTMLColors2000.exe' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/HTMLColors2000.exe'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\0.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/0.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\1.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/1.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\10.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/10.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\11.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/11.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\12.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/12.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\13.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/13.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\14.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/14.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\15.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/15.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\16.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/16.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\17.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/17.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\18.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/18.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\19.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/19.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\2.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/2.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\3.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/3.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\4.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/4.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\5.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/5.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\6.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/6.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\7.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/7.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\8.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/8.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\9.jpg' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/9.jpg'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\bg.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/bg.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\images\calc.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/images/calc.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\index.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/index.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-mousewheel-3.0.6\ChangeLog.markdown' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/ChangeLog.markdown'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-mousewheel-3.0.6\jquery.mousewheel.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/jquery.mousewheel.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-mousewheel-3.0.6\jquery.mousewheel.min.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/jquery.mousewheel.min.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-mousewheel-3.0.6\LICENSE.txt' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/LICENSE.txt'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-mousewheel-3.0.6\README.markdown' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/README.markdown'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-mousewheel-3.0.6\test\index.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-mousewheel-3.0.6/test/index.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery-ui.min.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery-ui.min.js'
+Sync State: /jquery.calc
+Sync State: /jquery.calc/calc.jquery.js
+Sync State: /jquery.calc/jquery.numeric.js
+Sync State: /jquery.calc/uCalc.html
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.fifteen\fifteen.jquery.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.fifteen/fifteen.jquery.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.fifteen\fifteen.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.fifteen/fifteen.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.fifteen\index.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.fifteen/index.html'
+Sync State: /jquery.fiftin
+Sync State: /jquery.imginfo
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.min.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.min.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.mousewheel.min.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.mousewheel.min.js'
+Sync State: /jquery.music
+Sync State: /jquery.music/360-player
+Sync State: /jquery.music/360-player/script
+Sync State: /jquery.music/360-player/swf
+Sync State: /jquery.music/jquery.music
+Sync State: /jquery.music/jquery.music/script
+Sync State: /jquery.music/jquery.music/swf
+Sync State: /jquery.music/script
+Sync State: /jquery.music/swf
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\cloudy-night-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/cloudy-night-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\dew-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/dew-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\hail-with-fog-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/hail-with-fog-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\index.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/index.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\jquery.simpleWeather-2.0.1.min.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/jquery.simpleWeather-2.0.1.min.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\partly-cloudy-day-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/partly-cloudy-day-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\partly-cloudy-day-icon2.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/partly-cloudy-day-icon2.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\rain-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/rain-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\sleet-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/sleet-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\snow-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/snow-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\thunder-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/thunder-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\tmp_not_used\.gitignore' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tmp_not_used/.gitignore'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\tmp_not_used\index - копия.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tmp_not_used/index - копия.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\tmp_not_used\jquery.simpleWeather.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tmp_not_used/jquery.simpleWeather.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\tmp_not_used\MIT-LICENSE.txt' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tmp_not_used/MIT-LICENSE.txt'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\tmp_not_used\package.json' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tmp_not_used/package.json'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\tornado-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/tornado-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\uWeather.simpleWeather.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/uWeather.simpleWeather.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.simpleWeather\wind-vane-icon.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.simpleWeather/wind-vane-icon.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.slideshow\autoSlider.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.slideshow/autoSlider.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.slideshow\bottom.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.slideshow/bottom.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.slideshow\index.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.slideshow/index.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.slideshow\slideshow.jquery.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.slideshow/slideshow.jquery.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.slideshow\top.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.slideshow/top.png'
+Sync State: /jquery.soundmanager
+Sync State: /jquery.soundmanager/demo
+Sync State: /jquery.soundmanager/demo/360-player
+Sync State: /jquery.soundmanager/demo/360-player/script
+Sync State: /jquery.soundmanager/demo/360-player/swf
+Sync State: /jquery.soundmanager/demo/_image
+Sync State: /jquery.soundmanager/demo/_mp3
+Sync State: /jquery.soundmanager/demo/animation
+Sync State: /jquery.soundmanager/demo/animation/audio
+Sync State: /jquery.soundmanager/demo/animation-1
+Sync State: /jquery.soundmanager/demo/animation-1/css
+Sync State: /jquery.soundmanager/demo/animation-1/image
+Sync State: /jquery.soundmanager/demo/animation-1/script
+Sync State: /jquery.soundmanager/demo/animation-2a
+Sync State: /jquery.soundmanager/demo/animation-2b
+Sync State: /jquery.soundmanager/demo/animation-2b/audio
+Sync State: /jquery.soundmanager/demo/animation-2b/css
+Sync State: /jquery.soundmanager/demo/animation-2b/image
+Sync State: /jquery.soundmanager/demo/animation-2b/script
+Sync State: /jquery.soundmanager/demo/api
+Sync State: /jquery.soundmanager/demo/christmas-lights
+Sync State: /jquery.soundmanager/demo/christmas-lights/image
+Sync State: /jquery.soundmanager/demo/christmas-lights/sound
+Sync State: /jquery.soundmanager/demo/flashblock
+Sync State: /jquery.soundmanager/demo/flashblock/method1
+Sync State: /jquery.soundmanager/demo/mp3-player-button
+Sync State: /jquery.soundmanager/demo/mp3-player-button/css
+Sync State: /jquery.soundmanager/demo/mp3-player-button/image
+Sync State: /jquery.soundmanager/demo/mp3-player-button/script
+Sync State: /jquery.soundmanager/demo/mpc
+Sync State: /jquery.soundmanager/demo/mpc/audio
+Sync State: /jquery.soundmanager/demo/mpc/css
+Sync State: /jquery.soundmanager/demo/mpc/image
+Sync State: /jquery.soundmanager/demo/mpc/script
+Sync State: /jquery.soundmanager/demo/page-player
+Sync State: /jquery.soundmanager/demo/page-player/css
+Sync State: /jquery.soundmanager/demo/page-player/image
+Sync State: /jquery.soundmanager/demo/page-player/script
+Sync State: /jquery.soundmanager/demo/play-mp3-links
+Sync State: /jquery.soundmanager/demo/play-mp3-links/css
+Sync State: /jquery.soundmanager/demo/play-mp3-links/image
+Sync State: /jquery.soundmanager/demo/play-mp3-links/script
+Sync State: /jquery.soundmanager/demo/template
+Sync State: /jquery.soundmanager/doc
+Sync State: /jquery.soundmanager/doc/download
+Sync State: /jquery.soundmanager/doc/generated
+Sync State: /jquery.soundmanager/doc/generated/demo
+Sync State: /jquery.soundmanager/doc/generated/demo/360-player
+Sync State: /jquery.soundmanager/doc/generated/demo/360-player/script
+Sync State: /jquery.soundmanager/doc/generated/demo/flashblock
+Sync State: /jquery.soundmanager/doc/generated/demo/mp3-player-button
+Sync State: /jquery.soundmanager/doc/generated/demo/mp3-player-button/script
+Sync State: /jquery.soundmanager/doc/generated/demo/mpc
+Sync State: /jquery.soundmanager/doc/generated/demo/mpc/script
+Sync State: /jquery.soundmanager/doc/generated/demo/page-player
+Sync State: /jquery.soundmanager/doc/generated/demo/page-player/script
+Sync State: /jquery.soundmanager/doc/generated/demo/play-mp3-links
+Sync State: /jquery.soundmanager/doc/generated/demo/play-mp3-links/script
+Sync State: /jquery.soundmanager/doc/generated/script
+Sync State: /jquery.soundmanager/doc/generated/src
+Sync State: /jquery.soundmanager/doc/getstarted
+Sync State: /jquery.soundmanager/doc/resources
+Sync State: /jquery.soundmanager/doc/technotes
+Sync State: /jquery.soundmanager/script
+Sync State: /jquery.soundmanager/src
+Sync State: /jquery.soundmanager/swf
+Sync State: /jquery.soundmanager/troubleshoot
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.xo\krestiki-noliki.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.xo/krestiki-noliki.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.xo\xo.html' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.xo/xo.html'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\jquery.xo\xo.jquery.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/jquery.xo/xo.jquery.js'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\loop.gif' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/loop.gif'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\test.png' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/test.png'
+Скопирован новый 'D:\Server\AppServ\www\uInterface\uInterface.jquery.js' -> 'sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/uInterface.jquery.js'
+Sync State: /xo
+Sync State: /Новая папка
+Сохраняю файл состояний D:\Server\AppServ\www\uInterface\_gsdata_\_file_state_v4._gs
+Сохраняю файл состояний sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/_gsdata_/_file_state_v4._gs
+Синхронизировано: 161, Ошибок: 0
+===== 08.05.2012 16:03:02: Синхронизация завершена. Время 00:12:10, Скорость: 8,00 КБ/s файлов/сек =====
+Unlocking folder (set insync file) D:\Server\AppServ\www\uInterface\_gsdata_\_insync_v4.gsl
+Unlocking folder (set insync file) sds://d.docs.live.net/5516a74b21053909/..Public/uInterface/_gsdata_/_insync_v4.gsl
+

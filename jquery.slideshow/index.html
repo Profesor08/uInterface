@@ -1,0 +1,65 @@
+<script src="jquery.slideshow/slideshow.jquery.js" type="text/javascript"></script>
+<style type="text/css">
+#uSlideBottom, #uSlideTop {
+	height: 30px;
+	width: 500px;
+	line-height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	border: 2px solid #FF3300;
+	background-color: #333333;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#uSlideBottom {
+	border-radius: 0px 0px 20px 20px;
+	//background: url("jquery.slideshow/bottom.png");
+}
+#uSlideTop {
+	border-radius: 20px 20px 0px 0px;
+	//background: url("jquery.slideshow/top.png");
+}
+#uSlideMain div{
+	height: 350px;
+	width: 500px;
+	line-height: 100%;
+	vertical-align: middle;
+	border: 2px solid #FF3300;
+	border-top: 0;
+	border-bottom: 0;
+	overflow: hidden;
+}
+
+#uSlideContainer img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	margin: 0px;
+	border: 0px;
+}
+</style>
+
+	<table id="uSlideContainer" cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="uSlideTop">&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;&#8743;</td>
+		</tr>
+		<tr>
+			<td id="uSlideMain">
+			<div>
+				<img src="images/0.jpg" border="0">
+				<img src="images/1.jpg" border="0">
+				<img src="images/2.jpg" border="0">
+				<img src="images/3.jpg" border="0">
+				<img src="images/4.jpg" border="0">
+				<img src="images/5.jpg" border="0">
+				<img src="images/6.jpg" border="0">
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td id="uSlideBottom">&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;&#8744;</td>
+		</tr>
+	</table>

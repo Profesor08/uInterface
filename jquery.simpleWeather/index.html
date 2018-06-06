@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+	<script src="jquery.simpleWeather-2.0.1.min.js"></script>
+
+	<script type="text/javascript">
+		function getWeather() {
+			$.simpleWeather({
+				location: 'chisinau, moldova',
+				unit: 'f',
+				success: function(weather) {
+					$("#uWeatherTodayHigh").html(parseInt(((weather.high - 32) * (5/9)))+'&deg; C');
+					$("#uWeatherTodayLow").html(parseInt(((weather.low - 32) * (5/9)))+'&deg; C');
+					$("#uWeatherTodayCurrent").html(parseInt(((weather.temp - 32) * (5/9)))+'&deg; C');
+					$("#uWeatherRegion").html(weather.region);
+					$("#uWeatherCity").html(weather.city);
+					$("#uWeatherCountry").html(weather.country);
+					$("#uWeatherWind").html(weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed);
+					$("#uWeatherCurrentlyWind").html(weather.currently);
+					$("#uWeatherForecast").html(weather.forecast);
+					$("#uWeatherTodayImage").html('<img src="'+weather.image+'">');
+					$("#uWeatherTodayHumidity").html(weather.humidity);
+					$("#uWeatherTodayPressure").html(weather.pressure);
+					$("#uWeatherTodayRising").html(weather.rising);
+					$("#uWeatherTodayVisibility").html(weather.visibility);
+					$("#uWeatherTodaySunrise").html(weather.sunrise);
+					$("#uWeatherTodaySunset").html(weather.sunset);
+					$("#uWeatherTomorrowDate").html(weather.tomorrow.day+' '+weather.tomorrow.date);
+					$("#uWeatherTomorrowHigh").html(parseInt(((weather.tomorrow.high - 32) * (5/9)))+'&deg; C');
+					$("#uWeatherTomorrowLow").html(parseInt(((weather.tomorrow.low - 32) * (5/9)))+'&deg; C');
+					$("#uWeatherTomorrowForecast").html(weather.tomorrow.forecast);
+					$("#uWeatherTomorrowImage").html('<img src="'+weather.tomorrow.image+'">');
+					$("#uWeatherLastUpdate").html(weather.updated);
+				},
+				error: function(error) {
+					$("#weather").html('<p>'+error+'</p>');
+				}
+			});
+		}
+	</script>
+</head>
+<body>
+	<div id="weather"></div>
+	
+	<div id="uWeather" onClick="jvascript:getWeather();">
+	<table>
+		<tr class="uWeatherLocation">
+			<td id="uWeatherRegion"></td>
+			<td id="uWeatherCity"></td>
+			<td id="uWeatherCountry"></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td>Today's High</td>
+			<td>Today's Low</td>
+			<td>Current</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td id="uWeatherTodayHigh"></td>
+			<td id="uWeatherTodayLow"></td>
+			<td id="uWeatherTodayCurrent"></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td>Wind</td>
+			<td>Currently Wind</td>
+			<td>Forecast</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td id="uWeatherWind"></td>
+			<td id="uWeatherCurrentlyWind"></td>
+			<td id="uWeatherForecast"></td>
+		</tr>
+		<tr class="uWeatherData">
+			<td id="uWeatherTodayImage" colspan='3'></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td>Humidity</td>
+			<td>Pressure</td>
+			<td>Rising</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td id="uWeatherTodayHumidity"></td>
+			<td id="uWeatherTodayPressure"></td>
+			<td id="uWeatherTodayRising"></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td>Visibility</td>
+			<td>Sunrise</td>
+			<td>Sunset</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td id="uWeatherTodayVisibility"></td>
+			<td id="uWeatherTodaySunrise"></td>
+			<td id="uWeatherTodaySunset"></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td>Tomorrow's Date</td>
+			<td>Tomorrow's High</td>
+			<td>Tomorrow's Low</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td id="uWeatherTomorrowDate"></td>
+			<td id="uWeatherTomorrowHigh"></td>
+			<td id="uWeatherTomorrowLow"></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td colspan='3'>Tomorrow's Forecast</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td colspan='3' id="uWeatherTomorrowForecast"></td>
+		</tr>
+		<tr class="uWeatherData">
+			<td colspan='3' id="uWeatherTomorrowImage"></td>
+		</tr>
+		<tr class="uWeatherTitle">
+			<td>Last updated</td>
+		</tr>
+		<tr class="uWeatherData">
+			<td colspan='3' id="uWeatherLastUpdate"></td>
+		</tr>
+	</table>
+	</div>
+	
+</body>
+</html>

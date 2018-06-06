@@ -1,0 +1,203 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>uInterface Project</title>
+<!-- latest jQuery  -->
+<script src="jquery.min.js" type="text/javascript"></script>
+<!-- latest jQuery UI -->
+<script src="jquery-ui.min.js" type="text/javascript"></script>
+<!-- Theme -->
+<link type="text/css" rel="stylesheet" href="css/Style.css" > 
+<!-- plugin -->
+<script src="jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="uInterface.jquery.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	
+	uFastLink("http://prostopleer.com", "Prosto Pleer");
+	
+	
+	$("#link").click(function() {
+		new uWindow("some4", "new Generated4", "test.png", 300, 300, 800, 600, "");
+	});
+	// params 1: div id; 2:name; 3: image 4:positionX; 5:positionY; 6:width; 7:height; 8:Content;
+	
+	//new uWindow("some2", "new Generated2", "test.png", 200, 250, 800, 600, "Hellow world!");
+	//new uWindow("some1", "sds", "test.png", 100, 200, 800, 600, "");
+
+	
+	$("#link1").click(function() {
+		var wndName = $(this).text();
+		$.ajax({
+			url: "jquery.slideshow/index.html",
+			cache: false,
+			success: function(data){
+				new uWindow("some4", wndName, "test.png", 265, 400, 512, 450, data);
+				$("#some4 .uMainFrame").css({overflow: "hidden", "background-color":"#333333"});
+				uSlideShow(0);
+			}
+		});
+		
+	});
+	$("#link2").click(function() {
+		new uWindow("some5", "new Generated5", "test.png", 463, 600, 800, 364, "Generated window #5");
+	});
+	$("#link3").click(function() {
+		new uWindow("some6", "new Generated6", "test.png", 166, 800, 646, 465, "Generated window #6");
+	});
+
+	
+	
+	$("#activeLink1").uActiveLink(150, -20);
+	$("#activeLink1").click(function() {
+		$("#weatherBlock").uWeather();
+	});
+	
+	$("#activeLink3").uActiveLink(240, -20);
+	$("#activeLink3").click(function() {
+		$.ajax({
+			url: "jquery.xo/xo.html",
+			cache: false,
+			success: function(data){
+				new uWindow("uXOWindow", "XO", "test.png", 100, 500, 330, 334, data);
+				$("#uXOWindow .uMainFrame").css({overflow : "hidden"});
+				$("#uXOWindow  .uSystemPanelControls li:eq(1)").unbind();
+				$("#uXOWindow  .uSystemPanelControls li:eq(1)").html("");
+				uXOGame();
+			}
+		});
+	});
+	
+	$("#activeLink4").uActiveLink(330, -20);
+	$("#activeLink4").click(function() {
+		$.ajax({
+			url: "jquery.fifteen/index.html",
+			cache: false,
+			success: function(data){
+				new uWindow("uFifteen", "15n", "test.png", 100, 200, 190, 240, data);
+				$("#uFifteen .uMainFrame").css({overflow : "hidden"});
+				$("#uFifteen .uSystemPanelControls li:eq(1)").unbind();
+				$("#uFifteen .uSystemPanelControls li:eq(1)").html("");
+				uFifteenGame();
+			}
+		});
+	});
+
+	$("#uNexusBox").uNexusBox();
+
+	
+	
+});
+
+</script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+<div id="bodyBackground"><img src="images/12.jpg"></div>
+
+<ul id="uNexusBox">
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>one</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>two</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>three</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>bla</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>bla</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>bla</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>bla</div></li>
+	<li><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"><div>bla</div></li>
+</ul>
+
+<div id="some1"></div>
+<div id="some2">text text</div>
+<div id="some3">All<p>HTML</p><ul><li>Tags</li></ul><div>are</div><span>supported</span></div>
+<div id="some4"></div>
+<div style="font-size: 50px; font-family: Courier New; margin-top: 50px; text-shadow: 0px 0px 3px red; color: white;">
+<p>Панель "задач" - OK</p>
+<p>Окна - ОК</p>
+<p>Кнопка вызова доп. меню - ОК</p>
+<p>Взаимодействие окон и панели задач - ОК</p>
+<p>Доп. Меню - ОК</p>
+<p>Кнопка меню - ОК</p>
+<p>Часы - ОК</p>
+<p>Иконки быстрого доступа - ОК</p>
+<p>Свободная встраиваемость плагинов - ОК</p>
+<p>Свободная встраиваемость контента - ОК</p>
+<p>Свои плагины - ОК</p>
+<p>Ajax - ОК</p> 
+<p>Погода - ОК</p>
+<p>Границы рабочей области - ОК</p>
+<p>Анимации - ОК</p> 
+<p>Динамическое создание окон - ОК</p>
+<p>Слайд-шоу - ОК</p>
+<p>Быстрая ссылка - ОК</p>
+<p>Меню основное - ОК</p>
+<p>Прокрутка колесиком - ОК</p>
+<p>Выплывающее меню ссылок</p>
+<p></p>
+</div>
+<div id="uLinksBlock">
+	<div>
+	<ul>
+		<li id="link1">Slideshow</li>
+		<li id="link2">click me 2</li>
+		<li id="link3">click me 3</li>
+		<li id="link4">click me 4</li>
+		<li id="link5">click me 5</li>
+		<li id="link6">click me 6</li>
+		<li id="link7">click me 7</li>
+		<li id="link8">click me 8</li>
+		<li id="link9">click me 9</li>
+		<li id="link10">click me 10</li>
+		<li id="link11">click me 11</li>
+		<li id="link12">click me 12</li>
+		<li id="link13">click me 13</li>
+		<li id="link14">click me 14</li>
+		<li id="link15">click me 15</li>
+		<li id="link16">click me 16</li>
+		<li id="link17">click me 17</li>
+		<li id="link18">click me 18</li>
+		<li id="link19">click me 18</li>
+		<li id="link20">click me 20</li>
+		<li id="link21">click me 21</li>
+		<li id="link22">click me 22</li>
+		<li id="link23">click me 23</li>
+		<li id="link24">click me 24</li>
+		<li id="link25">click me 25</li>
+		<li id="link26">click me 26</li>
+		<li id="link27">click me 27</li>
+		<li id="link28">click me 28</li>
+		<li id="link29">click me 29</li>
+		<li id="link30">click me 30</li>
+		<li id="link31">click me 31</li>
+		<li id="link32">click me 32</li>
+		<li id="link33">click me 33</li>
+		<li id="link34">click me 34</li>
+		<li id="link35">click me 35</li>
+		<li id="link36">click me 36</li>
+		<li id="link37">click me 37</li>
+		<li id="link38">click me 38</li>
+		<li id="link39">click me 39</li>
+		<li id="link40">click me 40</li>
+		<li id="link41">click me 41</li>
+		<li id="link42">click me 42</li>
+	</ul>
+	</div>
+</div>
+<div id="some7"></div>
+
+<div id="weatherBlock"></div>
+
+<div id="uSlideShow"></div>
+
+<div id="activeLink1"><img src="jquery.simpleWeather/partly-cloudy-day-icon2.png"></div>
+<div id="activeLink3"><img src="jquery.xo/krestiki-noliki.png"></div>
+<div id="activeLink4"><img src="jquery.fifteen/fifteen.png"></div>
+
+
+</body>
+</html>
